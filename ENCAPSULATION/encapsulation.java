@@ -1,7 +1,7 @@
 // Encapsulation -  The wrapping up of data and function into a single unit (called class) is known as encapsulation.
 // It combines data hiding and abstraction. 
 
-class EncapsulationEx{
+public class Encapsulation{
 	
 		private float balance;
 		
@@ -14,10 +14,10 @@ class EncapsulationEx{
 		public void setBalance(float b){
 			balance=b;
 		}
-
+		 
 	public static void  main(String[] args){
 		
-		EncapsulationEx obj=new EncapsulationEx();
+		Encapsulation obj=new Encapsulation();
 		obj.setBalance(2340.34f);
 		System.out.println("balance is : "+ obj.getBalance());
 

@@ -9,11 +9,12 @@
 // 2)parameterized constructor
 // 3)copy constructor
 
-class DefaultEx{
- 	DefaultEx(){ // Default constructor
+public class Default{
+ 	Default(){ // Default constructor
  		System.out.println("Default constructor called..");
  	}
  	public static void main(String[] args){
-		DefaultEx a = new DefaultEx();
+		Default a = new Default();
+		System.out.println(a);
 	}
 } 

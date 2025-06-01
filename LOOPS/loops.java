@@ -1,4 +1,4 @@
-class LoopsEx{
+public class Loops{
 	public static void main(String[] args){
 		
 		//while loop
@@ -30,6 +30,13 @@ class LoopsEx{
 		for(int num:numbers){
 			System.out.println(num);
 		}		
+
+		//write while loop in different way
+		System.out.println("write while loop in different way !!!!!!");
+		int x=10;
+		while(x -- > 1){
+			System.out.println(x);
+		}
 
 	}
 } 	

@@ -1,4 +1,4 @@
-class BitwiseEx{
+public class Bitwise{
 	public static void main(String[] args){
 		// operands --> byte short int long 
 		//Binary conversion only (.toBinaryString())
@@ -19,6 +19,7 @@ class BitwiseEx{
 		// not ~
 		int d=4;
 		int e=~4;
+		System.out.println(d);
 		System.out.println(e);	
 	
 		// left shift <<

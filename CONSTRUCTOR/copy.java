@@ -1,14 +1,14 @@
-class CopyEx{
+public class Copy{
 	
 	int age;
 	String name;
 	
-	CopyEx(int a,String n){		//parameterized constructor
+	Copy(int a,String n){		//parameterized constructor
 		age=a;
 		name=n;
 	}
 	
-	CopyEx(CopyEx C){		//copy constructor
+	Copy(Copy C){		//copy constructor
 		age=C.age;
 		name=C.name;
 	}
@@ -19,8 +19,8 @@ class CopyEx{
 	
 	public static void main(String[] args){
 
-		CopyEx obj=new CopyEx(24,"john due");
-		CopyEx obj1=new CopyEx(obj);
+		Copy obj=new Copy(24,"john due");
+		Copy obj1=new Copy(obj);
 		obj.display();
 		obj1.display();
 	}

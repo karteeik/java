@@ -22,7 +22,7 @@ class Cat extends Animal {
     }
 }
 
-class MethodOverriidingEx{
+public class MethodOverriding{
     public static void main(String[] args) {
         Animal a1 = new Dog();  // Dog object, but reference is of type Animal
         Animal a2 = new Cat();  // Cat object, but reference is of type Animal

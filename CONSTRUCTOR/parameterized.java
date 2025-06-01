@@ -1,9 +1,9 @@
-class ParameterizedEx{
+public class Parameterized{
 	
 	int age;
 	String name;
 	
-	ParameterizedEx(int a,String n){		//parameterized constructor
+	Parameterized(int a,String n){		//parameterized constructor
 		age=a;
 		name=n;
 	}
@@ -14,7 +14,7 @@ class ParameterizedEx{
 	
 	public static void main(String[] args){
 
-		ParameterizedEx obj=new ParameterizedEx(24,"john due");
+		Parameterized obj=new Parameterized(24,"john due");
 		obj.display();
 	}
 }
